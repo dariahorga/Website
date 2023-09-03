@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="C:\Users\nhorg\Desktop\teme\TW\next_page.js"></script>
+    <title>Buy tickets</title>
+</head>
+<body>
+    <div id="selectedTickets"></div>
+    <h2>Visitor Information</h2>
+    <p id="hello"></p>
+    <p id="expiredMessage"></p>
+    <form id="visitorForm" onsubmit="return validateForm()">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" name="name" required placeholder="Enter your name"><br>
+
+        <label for="ageInput">Age:</label>
+        <input type="number" id="ageInput" name="age" required placeholder="Enter your age"><br>
+
+        <label for="dateInput">Date to Visit:</label>
+        <input type="date" id="dateInput" name="date" required placeholder="Select a date"><br>
+
+        <label for="obsInput">Observations:</label>
+        <input type="text" id="obsInput" name="obs" placeholder="Enter your observations"><br>
+
+        <label for="rating">Please rate our website!</label>
+        <input type="range" id="ratingInput" name="rating" min="0" max="10"><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
